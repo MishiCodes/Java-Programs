@@ -5,6 +5,7 @@ public class Bicycle {
     private int speed;
     private int gear;
 
+
     // public Bicycle() {
 
     //}
@@ -28,4 +29,19 @@ public class Bicycle {
     public void printStates() {
         System.out.println("Cadence: " + cadence + " Speed: " + speed + " Gear: " + gear);
     }
+
+    public void run(int change)
+    {
+        changeCadence(change);
+        speedUp(10);
+        changeGear(2);
+    }
+
+
+    @Override
+    public String toString()
+    {
+        return "Cadence: " + cadence + " Speed: " + speed + " Gear: " + gear;
+    }
+
 }
