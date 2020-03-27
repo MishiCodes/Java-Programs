@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println(list);
 
+
         /*bicycle1.printStates();
 
         bicycle2.run( 50);

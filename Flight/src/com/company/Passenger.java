@@ -1,6 +1,11 @@
 package com.company;
 
 public class Passenger {
-    private Person person;
-    private Baggage baggage;
-}
+    public Person person;
+    public Baggage baggage;
+
+    public  Passenger(Person p, Baggage b) {
+        person = p;
+        baggage = b;
+    }
+    }
